@@ -41,16 +41,16 @@ describe "Pokemon" do
   end
 
   # describe "BONUS" do
-  # 
+  #
   #   before do
   #     @sql_runner.execute_create_hp_column
   #     Pokemon.save('Pikachu', 'electric', @db)
   #     Pokemon.save('Magikarp', 'water', @db)
   #   end
-  # 
+  #
   #   let(:pikachu){Pokemon.find(1, @db)}
   #   let(:magikarp){Pokemon.find(2, @db)}
-  # 
+  #
   #   # remove the 'x' before 'it' to run these tests
   #   xit "knows that a pokemon have a default hp of 60" do
   #     # The find method should create a new Pokemon object with an id, type, name AND hp after selecting their row from the database by their id number.
@@ -64,7 +64,7 @@ describe "Pokemon" do
     #   pikachu.alter_hp(59, @db)
     #   expect(Pokemon.find(1, @db).hp).to eq(59)
     # end
-    # 
+    #
     # # Now we alter Magikarp's hp
     # xit "alters Magikarp's hp" do
     #   magikarp.alter_hp(0, @db)
